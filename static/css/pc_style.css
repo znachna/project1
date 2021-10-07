@@ -1,0 +1,414 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Montserrat;
+    font-size: 13px;
+}
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.background_one{
+    background:url(../images/start_back.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    max-width: 100%;
+    height: 45.2vw;
+}   
+.start{
+    font-size: 0.8vw;
+    margin-left: 20.23%;
+    margin-right: 20.23%;
+    color: white;
+}
+.top{
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 2%;    
+}
+.item{
+    text-align: center;
+    width: 25%;
+    padding: 1% 0;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+}
+.item:last-child{
+    border-right: none;
+}
+.buttons-grid{
+    margin-top: 52%;
+    display: grid;
+    width: 100%;
+    grid-template-rows: 1fr;
+    grid-template-columns: 2fr 1.2fr 30px 1.2fr 2fr;
+}
+.gButton{
+    font-size: 1vw;
+    text-transform: uppercase;
+    background-color: #998431;
+    padding:5% 0;
+    text-align: center;
+}
+.gButton:first-child{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.gButton:last-child{
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+.background_two{
+    display: grid;
+    grid-template-rows: 1fr 8fr 1fr;
+    grid-template-columns: 17fr 50fr 17fr;
+    width: 100%;
+    height: 46vw;
+    background-color: #282828;
+}
+.taste_box{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 0 11%;
+    border: 3px solid #C4C4C4;
+}
+.headline{
+    margin-top: 2%;
+    font-size: 1.8vw;
+    font-style: 900;
+    text-align: center;
+    color: azure;
+}
+.line{   
+    margin: 0 40%;  
+}
+hr{
+    height: 1px;
+    border:none;
+    background-color: azure;
+}
+.Ttext{
+    font-size: 0.95vw;
+    color:azure;
+    text-align: center;
+}
+.Timage{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+img.Twine{
+    align-self: center;
+    max-height: 70%;
+    max-width: 30%;
+}
+.background_three{
+    display: grid;
+    grid-template-columns: 17fr 25fr 25fr 17fr;
+    grid-template-rows:  4fr 4fr 36fr 3fr 5fr;
+    background-color: #E6E3C4;
+    width: 100%;
+    height: 54vw;
+}
+.topLine{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    border: none;   
+}
+.bottomLine{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 5;
+    grid-row-end: 6;
+    border: none;   
+}
+hr.line3{
+    display: grid;
+    height: 2px;
+    background-color: #998431;
+}
+.infoBox{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    display: grid;
+    grid-template-columns: 21fr 2fr 27fr;
+    grid-template-rows: 100%;
+}
+.picBox{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    display: grid;
+    grid-template-rows: 33fr 2fr 15fr;
+    grid-template-columns: 11fr 1fr 11fr;
+}
+img.wineGlass{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.bottle1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.bottle2{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+.textBox{
+    grid-column-start: 1;
+    grid-column-end:2;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 3fr;
+}
+.topBox{
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+p.topText{
+    margin-top: 0;
+    font-size: 1vw;
+}
+h2{
+    font-size: 2vw;
+}
+hr.centerLine{
+    background-color: black;
+    margin-right: 60%;
+    margin-bottom: 1vh;
+}
+.centerText{
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+.centerText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.centerText p{
+    margin: 0;
+    color: black;
+    font-size: 0.9vw;
+}
+h3{
+    font-size: 0.9vw;
+    margin:0;
+}
+table{
+    border-collapse: collapse;
+}
+td{
+    max-height: inherit;
+    border:1px solid black;
+    border-right:none;
+    border-bottom: none;
+    padding: 1vmax;
+}
+.tTop{
+    border-top: none;
+}
+table h3{
+    font-size: 0.9vw;
+}
+td.year{
+    text-align: center;
+    border-left: none;
+}
+.bigButton{
+    width: 60%;
+    background-color:#998431;
+}
+.bigButton p{
+    color:white;
+    padding: 1.5vmin 0 1.5vmin 0;
+    text-align: center;
+}
+.background_four{
+    max-width: 100%;
+    padding: 8% 20.23% 5% 20.23%;
+    height: 30vw;
+    background-color:  #282828;
+}
+.background_four img{
+    position:absolute;
+    width:15%; 
+}
+.background_four img.left{
+    margin: -6% 0 0 -2%;
+}
+.background_four img.right{
+    margin: -5% 0 0 48%;
+}
+.background_four .topBox{
+    position: absolute;
+    margin: -1.2% 0 0 17%;
+    padding: 0 3%;
+    font-size: 1.8vw;
+    color: white;
+    background-color: inherit;
+}
+.registration{
+    flex-direction: column;
+    padding: 0% 25%;
+    height:100%;
+    border: 1px solid white;
+    font-style: inherit;
+    font-size: 1vw;
+    color: white;
+}
+.registration .content{
+    height: 80%;
+    margin-top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;   
+}
+.topReg{
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.bottomReg{
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+}
+.regLine{
+    align-self: center;
+    height: 1px;
+    width: 20%;
+    background-color: white;
+}
+.top_input{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+}
+input{
+    min-width: 0;
+    width: 46%;
+    padding-bottom: 2%;
+    background-color: #282828;
+    border:none;
+    border-bottom: 1px solid white;
+    font-family: inherit;
+    font-size: inherit;
+    color: white;
+}
+input::placeholder{
+    font-size: inherit;
+    font-family: inherit;
+    color: inherit;
+}
+input.left{
+    float: left;
+}
+input.right{
+    float: right;
+}
+input.bottom{
+    width: 100%;
+}
+.record{
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    text-align: center;
+    border: 1px solid white;
+}
+footer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 20vh;
+    background-color:#998431;
+}
+.bigFooter{
+    display: flex;
+    flex-direction: column;
+    margin: 0 20.23%;
+    height: 60%;
+}
+.Fcontent{
+    height: 50%;
+    padding: 0 7%;
+    display: flex;
+    flex-direction: row;
+}
+.Fcontent:first-child{
+    font-size: 0.8vw;
+    background-color: #998431;
+    justify-content: space-between;
+    align-content: center;
+    border-top: 1px solid white;
+}
+.Fcontent:last-child    { 
+    text-transform: uppercase; 
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+}
+.fItem{
+    align-self: center;
+}
+.fButton{
+    font-size: 1vw;
+    align-self: center;
+    border-right: 1px solid white;
+    padding: 1.7vh 4%;
+}
+.fButton:first-child{
+    padding-left:0%;
+}
+.fButton:nth-child(1){
+    width: 28%;
+}
+.fButton:nth-child(2){
+    width:17%;
+}
+.fButton:nth-child(3){
+    padding: 0;
+    width:21%;
+    display:flex;
+    border-right: none;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.fButton:nth-child(3) img{
+    align-self: center;
+    width: fit-content;
+    height: 1vw;
+}
+.fButton:last-child{
+    text-align: right;
+    margin-left: auto;
+    padding-left: 5%;
+    border-left: 1px solid white;
+    padding-right:0%;
+    border-right: none;
+}
